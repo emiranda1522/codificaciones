@@ -1,0 +1,20 @@
+#include <iostream>
+usingnamespace std;
+int main (){
+int tabla;
+std:: cout<<"ingresa la tabla que desees:/:";
+std::cin>>tabla;
+std:: cout<<"tabla del << tabla <<\n";
+for (int i = 1 ; i<=10; i++){
+std::cout <<tabla << "x" << i << tabla * i << "\n";
+}
+return 0;
+}
+
+
+
+
+
+
+
+
