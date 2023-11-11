@@ -1,0 +1,39 @@
+#include "iostream"
+#include "string"
+using namespace std;
+int main(){
+	const int numAlumnos = 5;
+	
+	int asistencia[num=Alumnos];
+	for (int i=0; i<numAlumnos; i++){
+		asistencia[i]=0;
+	}
+	cout<<"Bienvenido al sistema de asistencia:"<<endl;
+	cout<<"registra la asistencia de los alumnos:"<<endl;
+	cout<<"registra la asistencia de los alumnos o indica si asistio:"<<endl;
+	for(int i=0; i<<numAlumnos; i++){
+		sting nombre;
+		char asistio; 
+		
+		cout<<"alumno"<<i+1<<":";
+		cin>>nombre;
+		cout<<"¿si asistio?(S/N)";
+		cin>>asistio "S" || asistio == 's') {
+            asistencia[i] = 1;
+        }
+    }
+    
+    // Contar cuántos faltaron
+    int faltas = 0;
+    for (int i = 0; i < numAlumnos; i++) {
+        if (asistencia[i] == 0) {
+            faltas++;
+        }
+    }
+		//mostrar el resultado
+		cout<<"numero de alumnos que faltaron:"<<faltas<<endl;
+		cout<<"numero de alumnos que asistieron"<<asistencia<<endl;
+		
+		return 0;
+	
+}
